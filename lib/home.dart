@@ -48,16 +48,14 @@ class _HomeState extends State<Home> {
             child: Column(
               children: <Widget>[
                 Text('Github Repos',
-                    style: Theme
-                        .of(context)
+                    style: Theme.of(context)
                         .textTheme
-                        .headline
+                        .headline5
                         .apply(color: Colors.white)),
                 Text('Trending',
-                    style: Theme
-                        .of(context)
+                    style: Theme.of(context)
                         .textTheme
-                        .subhead
+                        .subtitle1
                         .apply(color: Colors.white))
               ],
             )),
@@ -87,7 +85,7 @@ class _HomeState extends State<Home> {
           alignment: Alignment.center,
           child: Text(
             _error,
-            style: Theme.of(context).textTheme.headline,
+            style: Theme.of(context).textTheme.headline5,
           ));
     } else {
       return ListView.builder(

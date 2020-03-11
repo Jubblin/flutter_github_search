@@ -1,4 +1,4 @@
-package com.example.githubsearch;
+package com.alfianlosari.githubsearch;
 
 import android.os.Bundle;
 
